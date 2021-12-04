@@ -1,9 +1,15 @@
+$background-color: #ddd;
+$text-color: #444;
+
 body {
-  background: #bbb;
+  background: $background-color;
 }
 #root {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   align-items: center;
   text-align: center;
+  color: $text-color;
 }
+
+@import "./GeocodeResult.scss";
